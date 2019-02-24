@@ -1,0 +1,257 @@
+html{
+  background-color: black;
+  font-family: Luminari, fantasy; 
+}
+body{
+	
+	font-family: Luminari, fantasy;
+	
+} 
+
+#navbar{
+
+  text-align: center;
+  display:block;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  /*background-color: #B9090B;*/
+  background-color: #fc0;
+  color: gray;
+  transition: top 0.3s;
+
+}
+
+#navbar a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+#navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+
+ul{
+
+    margin: 0;
+    padding: 20px;
+
+}
+
+li{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  color:gray;
+  padding: 10px;
+}
+
+h1{
+	font-size: 70px;
+	font-family: Luminari, fantasy;
+	text-align: center;
+	color: white;
+}
+
+h2{
+
+	font-size: 30px;
+	font-family: Luminari, fantasy;
+	text-align: center;
+	color: white;
+}
+
+p{
+  color: white;
+  /*text-align: justify;*/
+  text-align: center;
+  margin: 2px;
+  font-family: Luminari, fantasy;
+}
+
+
+
+.flex-box{
+  display: flex;
+  width: 100%; 
+  margin: 10px; 
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: left;
+  justify-content: left;
+}
+
+button{
+  margin:10px;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  /*border-radius: 50%;*/
+ 
+}
+
+.flex-box-content{
+  display:flex;
+  flex-direction: row;
+  width: 50%;
+  margin: 10px auto;
+  align-items: right;
+  justify-content: right;
+
+}
+
+
+.content{
+  display:none;
+  width: 100%;
+  margin: 10px auto;
+  font-family: Luminari, fantasy;
+}
+
+.navLink{
+  color: white;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fc0;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+img{
+  display: block;
+  /*border-radius: 50%;*/
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  background: black;
+}
+
+.pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+
+
+.Text{
+	text-align: center;
+	color: black;
+	position: relative;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  font-style: italic;
+}
+
+.body1{
+  background-color: black;
+  background-size: cover;
+  font-family:  Luminari, fantasy;
+  font-size:20px;
+  color: white;
+}
+
+
+.critique{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.sreview{
+  width: 500px;
+  margin: auto;
+}
+
+.textrev{
+  font-style: italic;
+  font-size: 24px;
+  color: white;
+  font-style: italic;
+}
+
+
+.fader {
+  opacity: 1;
+  transition: 2s opacity;
+  text-align: center;
+  font-size:35px;
+  font-style:italic;
+  color: #fc0;
+  display: none;
+}
+
+
+.smallbox {
+  background-color: black;
+ width: 90%;
+
+}
+
+
+.flexible-container-col{
+  background-color: white;
+  width: 50%;
+  display: inline-flex;
+  flex-direction: column; 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: -20px;
+
+}
+
+.special-color-one{
+  background-color: black;
+}
+
+.special-color-two{
+  background-color: black;
+   margin-top: 50px;
+  /*height: 50%;*/
+}
+
+#oskar{
+  width: 40%;
+  transform: translate(750px,400px);
+}
+
+
+
+
